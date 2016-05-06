@@ -1,6 +1,6 @@
-#### simple template app in angular js
-##### nginx config
-______________________________________
+####simple template app in angular js
+----------
+#####nginx config:
 
 server {
         listen *:80;
