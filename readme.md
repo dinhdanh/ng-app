@@ -1,6 +1,7 @@
 ####simple template app in angular js
 ----------
 #####nginx config:
+----------
 server {
         listen *:80;
         server_name ng-app.local;
