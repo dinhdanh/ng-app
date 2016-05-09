@@ -31,4 +31,13 @@
 		    controllerAs: 'signin'
 		});
 	}
+
+	run.$inject = ['$cookies', 'signin', '$state'];
+	function run ($cookies, signin, $state) {
+		var signined = signin.isSignined();console.log($state);
+		if (signined === false) {
+			$state.go('signin');
+		}
+		console.log(signined);
+	}
 })();
